@@ -13,49 +13,24 @@ Equipe:
 - [Giovana Rosa](github.com/giovana-rosa)
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](https://github.com/Brasiva/brasiva-doc.git)
 -   Backend: [Repositório](github.com/Brasiva/backend) e [Publicação](https://brasiva-backend.herokuapp.com/)
 -   Frontend: [Repositório](github.com/Brasiva/frontend) e [Publicação](https://brasiva-frontend.herokuapp.com/)
 
 # 2. Situação Problema
 
-descrever a situação problema que será resolvida pelo sistema.
-
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   Empresa Brasiva, prestadora de serviços gastronômicos para eventos diversos, tendo em foco a gastronomia salgada. A empresa existe há 10 anos, tendo como dono seu criador Sérgio Rosa e atualmente conta com 10 funcionários. A Brasiva tem sua cozinha matriz localizada em Araquari. Seu público alvo são
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+    A Brasiva é uma empresa que atua na prestação de serviços para eventos, como aniversários, reuniões e casamentos. A empresa oferece um serviço completo, incluindo a compra e preparo de alimentos e o fornecimento dos utensílios necessários. Atualmente, conta com uma equipe responsável pela cozinha e pela execução dos serviços durante os eventos. Seu principal objetivo é atender às necessidades dos clientes de forma personalizada, garantindo a qualidade e organização de cada evento realizado.
+    O funcionamento da empresa inicia-se com o primeiro contato do cliente, que pode ocorrer por meio de redes sociais ou presencialmente. Nesse momento, são coletadas informações como tipo de evento, número de convidados, localização, data e preferências alimentares. Com base nesses dados, a equipe elabora um cardápio personalizado e realiza o cálculo do valor total do serviço.
+    Após a confirmação do pedido, a empresa organiza a compra dos ingredientes necessários e separa os utensílios que serão utilizados no evento. Esse controle, muitas vezes, é feito de forma manual, utilizando anotações em papéis, o que pode dificultar a visualização geral dos pedidos e dos materiais disponíveis, podendo causar falta de materiais em alguns eventos ou excesso em outros.
+    No dia do evento, a equipe se desloca até o local e realiza a montagem da estrutura e a organização dos alimentos. Durante esse processo, é essencial que haja uma boa comunicação entre os funcionários para garantir que todas as etapas ocorram conforme o planejado.
+    Diante dessa análise, é possível identificar que a empresa apresenta desafios principalmente na organização das informações, no controle de pedidos e na gestão de estoque de mercadorias e utensílios. A ausência de um sistema integrado pode gerar retrabalho, falhas na comunicação e dificuldades nas tomadas de decisões. Nesse contexto, o desenvolvimento de um software poderia auxiliar na centralização dessas informações, automatizando processos e contribuindo para uma gestão mais eficiente e organizada da empresa.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
-
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+    Com base nos problemas identificados, propõe-se o desenvolvimento de um sistema de gestão para eventos, com foco na organização e centralização das informações da Brasiva.
+    O principal objetivo do software será facilitar o controle de eventos, clientes, cardápios, estoque, utensílios e funcionários, permitindo que todas as informações estejam reunidas em um único sistema. Dessa forma, será possível reduzir erros, melhorar a comunicação entre os funcionários e otimizar o tempo de trabalho.
+    O sistema contará com um acesso completo para cadastrar eventos, controlar estoque e acompanhar todos os processos.
+Entre as principais funcionalidades do sistema, destacam-se o cadastro de eventos, cardápios e o gerenciamento de estoque. Essas funcionalidades permitirão maior controle e eficiência na realização dos serviços prestados pela empresa.
 
 # 4. Modelagem de Dados
 
