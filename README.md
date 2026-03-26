@@ -49,6 +49,8 @@ O sistema contará com um acesso completo para cadastrar eventos, controlar esto
 
 Entre as principais funcionalidades do sistema, destacam-se o cadastro de eventos, cardápios e o gerenciamento de estoque. Essas funcionalidades permitirão maior controle e eficiência na realização dos serviços prestados pela empresa.
 
+-- --
+
 # 4. Modelagem de Dados
 
 (*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
