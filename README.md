@@ -21,13 +21,18 @@ Links do projeto:
 
 A Brasiva é uma empresa que atua na prestação de serviços para eventos, como aniversários, reuniões e casamentos. A empresa oferece um serviço completo, incluindo a compra e preparo de alimentos e o fornecimento dos utensílios necessários.
 
+
 Atualmente, conta com uma equipe responsável pela cozinha e pela execução dos serviços durante os eventos. Seu principal objetivo é atender às necessidades dos clientes de forma personalizada, garantindo a qualidade e organização de cada evento realizado.
+
 
 O funcionamento da empresa inicia-se com o primeiro contato do cliente, que pode ocorrer por meio de redes sociais ou presencialmente. Nesse momento, são coletadas informações como tipo de evento, número de convidados, localização, data e preferências alimentares. Com base nesses dados, a equipe elabora um cardápio personalizado e realiza o cálculo do valor total do serviço.
 
+
 Após a confirmação do pedido, a empresa organiza a compra dos ingredientes necessários e separa os utensílios que serão utilizados no evento. Esse controle, muitas vezes, é feito de forma manual, utilizando anotações em papéis, o que pode dificultar a visualização geral dos pedidos e dos materiais disponíveis, podendo causar falta de materiais em alguns eventos ou excesso em outros.
 
+
 No dia do evento, a equipe se desloca até o local e realiza a montagem da estrutura e a organização dos alimentos. Durante esse processo, é essencial que haja uma boa comunicação entre os funcionários para garantir que todas as etapas ocorram conforme o planejado.
+
 
 Diante dessa análise, é possível identificar que a empresa apresenta desafios principalmente na organização das informações, no controle de pedidos e na gestão de estoque de mercadorias e utensílios. A ausência de um sistema integrado pode gerar retrabalho, falhas na comunicação e dificuldades nas tomadas de decisões. Nesse contexto, o desenvolvimento de um software poderia auxiliar na centralização dessas informações, automatizando processos e contribuindo para uma gestão mais eficiente e organizada da empresa.
 
@@ -35,9 +40,12 @@ Diante dessa análise, é possível identificar que a empresa apresenta desafios
 
 Com base nos problemas identificados, propõe-se o desenvolvimento de um sistema de gestão para eventos, com foco na organização e centralização das informações da Brasiva.
 
+
 O principal objetivo do software será facilitar o controle de eventos, clientes, cardápios, estoque, utensílios e funcionários, permitindo que todas as informações estejam reunidas em um único sistema. Dessa forma, será possível reduzir erros, melhorar a comunicação entre os funcionários e otimizar o tempo de trabalho.
 
+
 O sistema contará com um acesso completo para cadastrar eventos, controlar estoque e acompanhar todos os processos.
+
 
 Entre as principais funcionalidades do sistema, destacam-se o cadastro de eventos, cardápios e o gerenciamento de estoque. Essas funcionalidades permitirão maior controle e eficiência na realização dos serviços prestados pela empresa.
 
