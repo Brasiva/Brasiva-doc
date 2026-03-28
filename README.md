@@ -52,17 +52,17 @@ Entre as principais funcionalidades do sistema, destacam-se o cadastro de evento
 
 # 4. Modelagem de Dados
 
-O sistema utiliza um Banco de Dados Relacional para gerenciar a logística de eventos, equipe, cardápio e etc. A modelagem foi desenhada para garantir a organização e os relacionamentos dos dados dentro da aplicação.
+O sistema utiliza um banco de dados relacional para gerenciar a logística de eventos, equipe, cardápio etc. A modelagem foi desenhada para garantir a organização e os relacionamentos dos dados dentro da aplicação.
 
 
 **4.1. Descrição das Entidades**
 
 
-- `evento`: Armazena os dados básicos do evento, como local, data/hora, quantidade de pessoas e a taxa de uso dos utensílios.
+- `evento`: Armazena os dados básicos do evento, como local, data e hora, quantidade de pessoas e a taxa de uso dos utensílios.
 - `tipo_evento`: Tabela que classifica o evento (ex: Casamento, Aniversário, Formaturas).
 - `funcionario`: Armazena o cadastro dos funcionários, como seu nome, cargo (função) e o valor de remuneração.
 - `utensilio`: Registra os itens de logística (pratos, talheres, travessas), especificando o material e a quantidade total disponível de cada item.
-- `prato`: Contém os tipos de comidas e o valor que custará para o seu devido preparo.
+- `prato`: Contém os tipos de comidas e o valor necessário para seu preparo.
 - `categoria`: Organiza os pratos em grupos (ex: entradas, massas, acompanhamentos).
 - `ingrediente`: Armazena os ingredientes necessários para a produção dos pratos e seu valor de custo.
 - `estoque`: Contém a quantidade disponível de cada ingrediente.
