@@ -65,7 +65,7 @@ O sistema utiliza um Banco de Dados Relacional para gerenciar a logística de ev
 - `prato`: Contém os tipos de comidas e o valor que custará para o seu devido preparo.
 - `categoria`: Organiza os pratos em grupos (ex: entradas, massas, acompanhamentos).
 - `ingrediente`: Armazena os ingredientes necessários para a produção dos pratos e seu valor de custo.
-- estoque: Contém a quantidade disponível de cada ingrediente.
+- `estoque`: Contém a quantidade disponível de cada ingrediente.
 - `compra`: Registra os ingredientes que precisam ser comprados (porque não possuem no estoque) e permite o controle de validade, data da compra e o custo total.
 
 
