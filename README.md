@@ -49,15 +49,45 @@ O sistema contará com um acesso completo para cadastrar eventos, controlar esto
 
 Entre as principais funcionalidades do sistema, destacam-se o cadastro de eventos, cardápios e o gerenciamento de estoque. Essas funcionalidades permitirão maior controle e eficiência na realização dos serviços prestados pela empresa.
 
--- --
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
+O sistema utiliza um Banco de Dados Relacional para gerenciar a logística de eventos, equipe, cardápio e etc. A modelagem foi desenhada para garantir a organização e os relacionamentos dos dados dentro da aplicação.
 
 
+**4.1. Descrição das Entidades**
+
+
+- `evento`: Armazena os dados básicos do evento, como local, data/hora, quantidade de pessoas e a taxa de uso dos utensílios.
+- `tipo_evento`: Tabela que classifica o evento (ex: Casamento, Aniversário, Formaturas).
+- `funcionario`: Armazena o cadastro dos funcionários, como seu nome, cargo (função) e o valor de remuneração.
+- `utensilio`: Registra os itens de logística (pratos, talheres, travessas), especificando o material e a quantidade total disponível de cada item.
+- `prato`: Contém os tipos de comidas e o valor que custará para o seu devido preparo.
+- `categoria`: Organiza os pratos em grupos (ex: entradas, massas, acompanhamentos).
+- `ingrediente`: Armazena os ingredientes necessários para a produção dos pratos e seu valor de custo.
+- estoque: Contém a quantidade disponível de cada ingrediente.
+- `compra`: Registra os ingredientes que precisam ser comprados (porque não possuem no estoque) e permite o controle de validade, data da compra e o custo total.
+
+
+**4.2. Relacionamentos e Tabelas Associativas**
+
+
+Para resolver as relações de Muitos-para-Muitos (N:N), foram implementadas as seguintes tabelas associativas:
+
+
+- `equipe_evento`: Relaciona quais funcionários estão alocados em quais eventos. Isso permite que um funcionário participe de vários eventos e que um evento tenha múltiplos funcionários.
+- `utensilio_evento`: Define a lista de materiais que será deslocada para um evento específico.
+- `prato_evento`: Especifica quais pratos compõem o cardápio de um evento e a quantidade contratada para cada um.
+- `item_compra`: Relaciona a compra aos ingredientes adquiridos. É nesta tabela que ficam registrados a quantidade de cada item e o valor unitário pago no momento da compra.
+
+
+**4.3. Diagrama de Entidade-Relacionamento (DER)**
+
+
+![Diagrama de Entidade-Relacionamento](img/Modelagem%20do%20banco.png)
+
+
+-- -- 
 
 # 4. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
