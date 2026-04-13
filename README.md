@@ -411,7 +411,7 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 - Descrevem como o sistema é percebido por seus usuários.
 - Descrevem as interações entre os usuários e o sistema.
 
-![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
+![Diagrama de Caso de Uso](img/Modelagem%20do%20banco.png "Diagrama de Caso de Uso")
 
 **Os casos de uso:**
 - Descrevem como os **usuários interagem com o sistema** (as funcionalidades do sistema)
