@@ -84,7 +84,7 @@ Para resolver as relações de Muitos-para-Muitos (N:N), foram implementadas as 
 **4.3. Diagrama de Entidade-Relacionamento (DER)**
 
 
-![Diagrama de Entidade-Relacionamento](img/Modelagem%20do%20banco.png)
+![Diagrama de Entidade-Relacionamento](img/modelagem%20atualizada.png)
 
 
 -- -- 
