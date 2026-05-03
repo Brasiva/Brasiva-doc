@@ -14,8 +14,8 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/Brasiva/brasiva-doc.git)
--   Backend: [Repositório](github.com/Brasiva/backend) e [Publicação](https://brasiva-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/Brasiva/frontend) e [Publicação](https://brasiva-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/Brasiva/Brasiva-backend) e [Publicação]()
+-   Frontend: [Repositório](https://github.com/Brasiva/Brasiva-frontend) e [Publicação]()
 
 # 2. Situação Problema
 
