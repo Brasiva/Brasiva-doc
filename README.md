@@ -14,7 +14,7 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/Brasiva/brasiva-doc.git)
--   Backend: [Repositório](https://github.com/Brasiva/Brasiva-backend) e [Publicação]()
+-   Backend: [Repositório](https://github.com/Brasiva/Brasiva-backend) e [Publicação](https://brasiva-backend.class.fabricadesoftware.ifc.edu.br)
 -   Frontend: [Repositório](https://github.com/Brasiva/Brasiva-frontend) e [Publicação]()
 
 # 2. Situação Problema
