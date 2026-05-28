@@ -15,7 +15,8 @@ Equipe:
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/Brasiva/brasiva-doc.git)
 -   Backend: [Repositório](https://github.com/Brasiva/Brasiva-backend) e [Publicação](https://brasiva-backend.class.fabricadesoftware.ifc.edu.br)
--   Frontend: [Repositório](https://github.com/Brasiva/Brasiva-frontend) e [Publicação]()
+-   Frontend: [Repositório](https://github.com/Brasiva/Brasiva-frontend) e [Publicação](https://brasiva.class.fabricadesoftware.ifc.edu.br/)
+-   Figma: [Prototipagem](https://www.figma.com/design/qDL398j6HN2rQr3T4lHD43/Brasiva?node-id=0-1&p=f&t=zCjmyDQzF7JhRsoS-0)
 
 # 2. Situação Problema
 
