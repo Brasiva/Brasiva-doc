@@ -62,11 +62,16 @@ O sistema utiliza um banco de dados relacional para gerenciar a logística de ev
 - `tipo_evento`: Tabela que classifica o evento (ex: Casamento, Aniversário, Formaturas).
 - `funcionario`: Armazena o cadastro dos funcionários, como seu nome, cargo (função) e o valor de remuneração.
 - `utensilio`: Registra os itens de logística (pratos, talheres, travessas), especificando o material e a quantidade total disponível de cada item.
+- `utensilio_evento` : Tabela associativa que vincula os utensílios que serão utilizados em cada evento específico, permitindo o controle logístico dos materiais.
+- `cliente` : Armazena o cadastro dos clientes contratantes, contendo informações como o nome e a foto de identificação.
+- `categoria_ingrediente` : Classifica os ingredientes em grupos específicos (ex: laticínios, carnes, vegetais), facilitando a organização e busca no sistema.
 - `prato`: Contém os tipos de comidas e o valor necessário para seu preparo.
-- `categoria`: Organiza os pratos em grupos (ex: entradas, massas, acompanhamentos).
+- `categoria_prato` : Organiza os pratos em grupos (ex: entradas, pratos principais, sobremesas).
+- `prato_evento` : Tabela associativa que define quais pratos do cardápio farão parte de um evento específico e a quantidade de porções/unidades previstas.
 - `ingrediente`: Armazena os ingredientes necessários para a produção dos pratos e seu valor de custo.
 - `estoque`: Contém a quantidade disponível de cada ingrediente.
 - `compra`: Registra os ingredientes que precisam ser comprados (porque não possuem no estoque) e permite o controle de validade, data da compra e o custo total.
+- `orcamento_evento` : Registra o orçamento final a ser pago pelo contratante. Essa tabela consolida todos os valores gastos para a realização do mesmo.
 
 
 **4.2. Relacionamentos e Tabelas Associativas**
@@ -79,6 +84,8 @@ Para resolver as relações de Muitos-para-Muitos (N:N), foram implementadas as 
 - `utensilio_evento`: Define a lista de materiais que será deslocada para um evento específico.
 - `prato_evento`: Especifica quais pratos compõem o cardápio de um evento e a quantidade contratada para cada um.
 - `item_compra`: Relaciona a compra aos ingredientes adquiridos. É nesta tabela que ficam registrados a quantidade de cada item e o valor unitário pago no momento da compra.
+- `cliente_evento` : Relaciona quais clientes estão associados a quais eventos. Essa estrutura permite registrar se um evento possui mais de um cliente responsável ou se um cliente histórico já contratou múltiplos eventos.
+- `ingrediente_prato` : Define a ficha técnica (composição) de cada prato. Como um prato é feito de vários ingredientes e um mesmo ingrediente pode ser usado em várias receitas, essa tabela associativa une as duas pontas informando a estrutura do cardápio.
 
 
 **4.3. Diagrama de Entidade-Relacionamento (DER)**
