@@ -11,6 +11,7 @@ Professor: [Marco André Mendes](github.com/marcoandre)
 Equipe:
 - [Luiza Westrupp do Carmo](github.com/luizawestruppdocarmo)
 - [Giovana Rosa](github.com/giovana-rosa)
+- [Thayná Becker](github.com/thaynabecker)
 
 Links do projeto:
 -   Backend: [Repositório](https://github.com/Brasiva/Brasiva-backend) e [Publicação](https://brasiva-backend.class.fabricadesoftware.ifc.edu.br)
