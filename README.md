@@ -67,7 +67,7 @@ O sistema utiliza um banco de dados relacional para gerenciar a logística de ev
 - `categoria_ingrediente` : Classifica os ingredientes em grupos específicos (ex: laticínios, carnes, vegetais), facilitando a organização e busca no sistema.
 - `prato`: Contém os tipos de comidas e o valor necessário para seu preparo.
 - `categoria_prato` : Organiza os pratos em grupos (ex: entradas, pratos principais, sobremesas).
-- `prato_evento` : Tabela associativa que define quais pratos do cardápio farão parte de um evento específico e a quantidade de porções/unidades previstas.
+- `cardapio` : Contém a junção de todos os pratos do evento.
 - `ingrediente`: Armazena os ingredientes necessários para a produção dos pratos e seu valor de custo.
 - `estoque`: Contém a quantidade disponível de cada ingrediente.
 - `compra`: Registra os ingredientes que precisam ser comprados (porque não possuem no estoque) e permite o controle de validade, data da compra e o custo total.
@@ -91,7 +91,7 @@ Para resolver as relações de Muitos-para-Muitos (N:N), foram implementadas as 
 **4.3. Diagrama de Entidade-Relacionamento (DER)**
 
 
-![Diagrama de Entidade-Relacionamento](img/Modelagem.png)
+![Diagrama de Entidade-Relacionamento](img/modelagem.png)
 
 
 -- -- 
