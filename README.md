@@ -93,7 +93,7 @@ Para resolver as relações de Muitos-para-Muitos (N:N), foram implementadas as 
 **4.3. Diagrama de Entidade-Relacionamento (DER)**
 
 
-![Diagrama de Entidade-Relacionamento](img/modelagem.png)
+![Diagrama de Entidade-Relacionamento](img/modelagem_22.08.png)
 
 
 -- -- 
