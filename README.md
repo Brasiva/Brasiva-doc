@@ -60,10 +60,10 @@ O sistema utiliza um banco de dados relacional para gerenciar a logística de ev
 **4.1. Descrição das Entidades**
 
 
-- `evento`: Armazena os dados básicos do evento, como local, data e hora, quantidade de pessoas e as taxas de utensílio e deslocamento.
+- `evento`: Armazena os dados básicos do evento, como local, data e hora, quantidade de pessoas, as taxas de utensílio e deslocamento, e o status do evento (ex: orçamento, confirmado, em andamento, concluído, cancelado).
 - `tipo_evento`: Tabela que classifica o evento (ex: Casamento, Aniversário, Formaturas).
 - `endereco`: Armazena o endereço vinculado ao evento.
-- `funcionario`: Armazena o cadastro dos funcionários, como seu nome, cargo (função) e o valor de remuneração.
+- `funcionario`: Armazena o cadastro dos funcionários, como seu nome, cargo (função), telefone e o valor de remuneração.
 - `utensilio`: Registra os itens de logística (pratos, talheres, travessas), especificando o material e a quantidade total disponível de cada item.
 - `cliente`: Armazena o cadastro dos clientes contratantes, contendo informações como o nome e a foto de identificação.
 - `categoria_ingrediente`: Classifica os ingredientes em grupos específicos (ex: laticínios, carnes, vegetais), facilitando a organização e busca no sistema.
@@ -71,11 +71,9 @@ O sistema utiliza um banco de dados relacional para gerenciar a logística de ev
 - `categoria_prato`: Organiza os pratos em grupos (ex: entradas, pratos principais, sobremesas).
 - `ingrediente`: Armazena os ingredientes necessários para a produção dos pratos.
 - `estoque`: Contém a quantidade disponível de cada ingrediente.
-- `compra`: Registra os pedidos de compra de ingredientes que estão em falta no estoque, contendo a data e o valor total da compra.
+- `compra`: Registra os pedidos de compra de ingredientes que estão em falta no estoque para um evento específico, contendo a data, o valor total e o status da compra (pendente ou concluída).
 - `orcamento_evento`: Registra o orçamento a ser pago pelo contratante, consolidando os valores gastos para a realização do evento.
-- `perfil`: Define o nível de acesso de um usuário dentro do sistema (ex: dono, funcionário), controlando quais funcionalidades ele pode utilizar.
-- `login`: Armazena as credenciais de acesso (e-mail e senha) de cada usuário do sistema interno, vinculando-o ao seu cadastro de funcionário e ao seu perfil de acesso.
-- `convite`: Registra o token gerado pelo dono ao cadastrar um novo funcionário, utilizado por ele para ativar o próprio acesso ao sistema. Contém o prazo de validade, se já foi utilizado e o perfil de acesso definido para aquele funcionário.
+- `convite`: Registra o token gerado pelo dono ao cadastrar um novo funcionário, utilizado por ele para ativar o próprio acesso ao sistema. Contém o prazo de validade, se já foi utilizado e o grupo de acesso definido para aquele funcionário.
 
 
 **4.2. Relacionamentos e Tabelas Associativas**
@@ -95,7 +93,7 @@ Para resolver as relações de Muitos-para-Muitos (N:N), foram implementadas as 
 **4.3. Diagrama de Entidade-Relacionamento (DER)**
 
 
-![Diagrama de Entidade-Relacionamento](img/modelagem_22.08.png)
+![Diagrama de Entidade-Relacionamento](img/mod_24.08.png)
 
 
 -- -- 
